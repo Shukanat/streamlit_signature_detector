@@ -1,0 +1,44 @@
+<style>
+.container_autors {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.content2 {
+	margin-left: 2%;
+	text-align: center;
+}
+.description {
+	min-height: 0;
+	min-width: 0;
+	text-align: justify;
+}
+
+img {
+	height: 100%; 
+	width: 100%; 
+	object-fit: contain;
+}
+
+</style>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="img_container">
+		<img src="https://www.nakasha.co.jp/img/future/ai/yolov3train/YOLO.jpg">
+	</div>
+	
+	<p class="description">Cette application a été dévéloppée pour tester la détéction de signatures sur 
+	les différents documents. Elle est écrite entièrement en Python à l'aide de 
+	<a href="https://www.streamlit.io/">Streamlit</a>. Pour la détection de signature, l'application utilise l'algorithme <a href="https://arxiv.org/abs/2004.10934">Yolo v4</a> pré-entraîné sur le jeu de données publique <a href="http://tc11.cvc.uab.es/datasets/Tobacco800_1)">Tobacco-800</a>.</p>
+	
+	<div class="container_autors">
+		<p class="content1"> <a href="https://github.com/" target="_blank" class="white-text">
+	            <i class="fab fa-github-square fa-4x"></i> </a> </p>
+	    <p class="content2">Auteurs: Vitali Shchutski & Cédric Soares</p>
+	</div>
+</body>

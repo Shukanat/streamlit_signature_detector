@@ -1,0 +1,4 @@
+jupyter
+numpy
+streamlit
+pdf2image
